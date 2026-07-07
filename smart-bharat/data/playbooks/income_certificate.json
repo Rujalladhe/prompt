@@ -1,0 +1,13 @@
+{
+  "service_id": "income_certificate",
+  "aliases": ["income certificate", "aay praman patra", "income certificate banwana hai", "aamdani praman patra", "apply income certificate"],
+  "portal_url": "https://edistrict.gov.in",
+  "required_docs": ["aadhaar", "address_proof", "ration_card", "salary_slip_or_affidavit"],
+  "steps": [
+    { "type": "navigate", "target": "portal_url", "instruction": "Opening your state e-District services portal" },
+    { "type": "human_required", "reason": "login", "instruction": "Log in with your e-District / Meeseva / state SSO credentials or mobile OTP." },
+    { "type": "ai_fill", "field_map": { "name": "profile.name", "address": "profile.address", "income": "profile.income_band" }, "instruction": "Filling applicant name, address and declared income band from your profile" },
+    { "type": "human_required", "reason": "upload_docs", "instruction": "Attach your address proof, ration card and income proof / self-declaration affidavit, then confirm." },
+    { "type": "human_required", "reason": "final_submit", "instruction": "Review the application and submit it yourself. Save the application reference number." }
+  ]
+}

@@ -1,0 +1,16 @@
+# Secrets — NEVER commit. .env holds the real Groq key + Mongo Atlas credentials.
+.env
+.env.*
+!.env.example
+
+# Dependencies / build
+node_modules/
+dist/
+web/dist/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

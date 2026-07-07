@@ -1,0 +1,13 @@
+{
+  "service_id": "epfo_withdrawal",
+  "aliases": ["pf withdrawal", "epf withdrawal", "pf nikalna hai", "epfo claim", "provident fund withdrawal", "pf ka paisa nikalna"],
+  "portal_url": "https://unifiedportal-mem.epfindia.gov.in",
+  "required_docs": ["aadhaar", "bank_account", "uan"],
+  "steps": [
+    { "type": "navigate", "target": "portal_url", "instruction": "Opening the EPFO Member e-SEWA (UAN) portal" },
+    { "type": "human_required", "reason": "login", "instruction": "Log in with your UAN and password. Enter these yourself; I will never see them." },
+    { "type": "ai_fill", "field_map": { "name": "profile.name" }, "instruction": "Selecting the online claim (Form 19/10C/31) and confirming your name as per records" },
+    { "type": "human_required", "reason": "verify_bank", "instruction": "Confirm your seeded bank account and enter the OTP sent to your Aadhaar-linked mobile to verify the withdrawal." },
+    { "type": "human_required", "reason": "final_submit", "instruction": "Review the claim type and amount, then submit the claim yourself. Note the claim tracking ID." }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "service_id": "ration_card",
+  "aliases": ["ration card", "ration card banwana hai", "new ration card", "apply ration card", "rashan card"],
+  "portal_url": "https://nfsa.gov.in",
+  "required_docs": ["aadhaar", "address_proof", "income_certificate", "photo"],
+  "steps": [
+    { "type": "navigate", "target": "portal_url", "instruction": "Opening the state PDS / NFSA portal" },
+    { "type": "human_required", "reason": "login", "instruction": "Log in with your state portal credentials or mobile OTP." },
+    { "type": "ai_fill", "field_map": { "name": "profile.name", "address": "profile.address", "income": "profile.income_band" }, "instruction": "Filling applicant name, address and income band from your profile" },
+    { "type": "human_required", "reason": "upload_docs", "instruction": "Attach your address proof and income certificate, then confirm." },
+    { "type": "human_required", "reason": "final_submit", "instruction": "Review the application and submit it yourself." }
+  ]
+}

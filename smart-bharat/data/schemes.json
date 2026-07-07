@@ -1,0 +1,1734 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "benefit": "₹6000/year in 3 installments of ₹2000",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "farmer"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "landholding farmer families with cultivable land; excludes institutional landholders and higher-income taxpayers/pensioners"
+    },
+    "why": "You are a farmer family owning cultivable land",
+    "documents": [
+      "aadhaar",
+      "land_records",
+      "bank_account"
+    ],
+    "source_url": "https://pmkisan.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "ayushman-bharat-pmjay",
+    "name": "Ayushman Bharat PM-JAY",
+    "department": "Ministry of Health & Family Welfare (National Health Authority)",
+    "benefit": "Health cover up to ₹5 lakh/year per family for secondary & tertiary care",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "poor and vulnerable families identified via SECC deprivation criteria; senior citizens 70+ covered under Vay Vandana extension"
+    },
+    "why": "Your household is in the eligible deprived/vulnerable category",
+    "documents": [
+      "aadhaar",
+      "ration_card"
+    ],
+    "source_url": "https://pmjay.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pmay",
+    "name": "Pradhan Mantri Awas Yojana (Awas Yojana)",
+    "department": "Ministry of Housing & Urban Affairs / Ministry of Rural Development",
+    "benefit": "Financial assistance / interest subsidy to build or buy a pucca house",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": 1800000,
+      "categories": [
+        "all",
+        "ews",
+        "sc",
+        "st",
+        "obc"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "families without a pucca house; EWS/LIG/MIG income slabs for urban, deprivation criteria for rural"
+    },
+    "why": "You lack a permanent (pucca) house and fall within the income limits",
+    "documents": [
+      "aadhaar",
+      "income_certificate",
+      "bank_account"
+    ],
+    "source_url": "https://pmaymis.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-ujjwala-yojana",
+    "name": "PM Ujjwala Yojana (PMUY)",
+    "department": "Ministry of Petroleum & Natural Gas",
+    "benefit": "Free LPG connection with deposit-free cylinder and subsidy support",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "sc",
+        "st",
+        "ews",
+        "obc"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "adult woman from a poor household without an existing LPG connection"
+    },
+    "why": "You are an adult woman from a poor household without an LPG connection",
+    "documents": [
+      "aadhaar",
+      "ration_card",
+      "bank_account"
+    ],
+    "source_url": "https://www.pmuy.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "nsap-old-age-pension",
+    "name": "National Social Assistance Programme (Old Age Pension - IGNOAPS)",
+    "department": "Ministry of Rural Development",
+    "benefit": "Monthly pension (₹200–₹500+ depending on age and state top-up)",
+    "eligibility": {
+      "min_age": 60,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "ews"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "persons aged 60+ belonging to a Below Poverty Line household"
+    },
+    "why": "You are 60 or older and from a BPL household",
+    "documents": [
+      "aadhaar",
+      "age_proof",
+      "bpl_card",
+      "bank_account"
+    ],
+    "source_url": "https://nsap.nic.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "sukanya-samriddhi-yojana",
+    "name": "Sukanya Samriddhi Yojana",
+    "department": "Ministry of Finance (Department of Economic Affairs)",
+    "benefit": "High-interest tax-advantaged savings account for a girl child",
+    "eligibility": {
+      "min_age": null,
+      "max_age": 10,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "account opened by guardian for a girl child below 10 years of age"
+    },
+    "why": "You are opening a savings account for a girl child under 10",
+    "documents": [
+      "aadhaar",
+      "birth_certificate",
+      "guardian_id"
+    ],
+    "source_url": "https://www.indiapost.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "post-matric-scholarship-scst-obc",
+    "name": "Post-Matric Scholarship for SC/ST/OBC",
+    "department": "Ministry of Social Justice & Empowerment / Ministry of Tribal Affairs",
+    "benefit": "Tuition, maintenance allowance and fee reimbursement for post-matriculation study",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": 250000,
+      "categories": [
+        "sc",
+        "st",
+        "obc"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "SC/ST/OBC students in post-matric (class 11 and above) courses within family income limits"
+    },
+    "why": "You are an SC/ST/OBC student in post-matric study within the income limit",
+    "documents": [
+      "aadhaar",
+      "caste_certificate",
+      "income_certificate",
+      "marksheet",
+      "bank_account"
+    ],
+    "source_url": "https://scholarships.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pre-matric-scholarship-scst-obc",
+    "name": "Pre-Matric Scholarship for SC/ST/OBC",
+    "department": "Ministry of Social Justice & Empowerment / Ministry of Tribal Affairs",
+    "benefit": "Scholarship for students in classes 9–10 (and pre-matric stages)",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": 250000,
+      "categories": [
+        "sc",
+        "st",
+        "obc"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "SC/ST/OBC students in pre-matriculation classes within family income limits"
+    },
+    "why": "You are an SC/ST/OBC pre-matric student within the income limit",
+    "documents": [
+      "aadhaar",
+      "caste_certificate",
+      "income_certificate",
+      "marksheet",
+      "bank_account"
+    ],
+    "source_url": "https://scholarships.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-mudra-yojana",
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "department": "Ministry of Finance (MUDRA / Financial Services)",
+    "benefit": "Collateral-free business loans up to ₹20 lakh (Shishu/Kishore/Tarun/Tarun Plus)",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupations": [
+        "entrepreneur",
+        "self_employed",
+        "small_business"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "non-corporate, non-farm micro and small enterprises needing working capital or term loans"
+    },
+    "why": "You run or are starting a small non-farm business needing a loan",
+    "documents": [
+      "aadhaar",
+      "business_plan",
+      "bank_account",
+      "identity_proof"
+    ],
+    "source_url": "https://www.mudra.org.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "stand-up-india",
+    "name": "Stand-Up India",
+    "department": "Ministry of Finance (Department of Financial Services)",
+    "benefit": "Bank loan of ₹10 lakh–₹1 crore for greenfield enterprises",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupations": [
+        "entrepreneur",
+        "self_employed"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "sc",
+        "st"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "SC/ST or women entrepreneurs setting up a new manufacturing, services or trading enterprise"
+    },
+    "why": "You are an SC/ST or woman entrepreneur starting a new enterprise",
+    "documents": [
+      "aadhaar",
+      "caste_certificate",
+      "project_report",
+      "bank_account"
+    ],
+    "source_url": "https://www.standupmitra.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-vishwakarma",
+    "name": "PM Vishwakarma",
+    "department": "Ministry of Micro, Small & Medium Enterprises",
+    "benefit": "Skill training, toolkit incentive, and collateral-free credit for traditional artisans",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupations": [
+        "artisan",
+        "craftsperson"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "artisans and craftspeople in one of 18 recognised trades (carpenter, blacksmith, potter, tailor, etc.)"
+    },
+    "why": "You work in a recognised traditional artisan or craft trade",
+    "documents": [
+      "aadhaar",
+      "bank_account",
+      "identity_proof"
+    ],
+    "source_url": "https://pmvishwakarma.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "atal-pension-yojana",
+    "name": "Atal Pension Yojana (APY)",
+    "department": "Ministry of Finance (PFRDA)",
+    "benefit": "Guaranteed monthly pension of ₹1000–₹5000 after age 60",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 40,
+      "occupations": [
+        "unorganised_worker",
+        "self_employed"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "Indian citizens aged 18–40 with a bank account, primarily for the unorganised sector; not income-tax payers"
+    },
+    "why": "You are aged 18–40 and want a guaranteed old-age pension",
+    "documents": [
+      "aadhaar",
+      "bank_account",
+      "mobile_number"
+    ],
+    "source_url": "https://www.npscra.nsdl.co.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "janani-suraksha-yojana",
+    "name": "Janani Suraksha Yojana (JSY)",
+    "department": "Ministry of Health & Family Welfare",
+    "benefit": "Cash assistance for institutional delivery to pregnant women",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "pregnant women, with higher priority and cash for BPL/SC/ST mothers opting for institutional delivery"
+    },
+    "why": "You are a pregnant woman opting for an institutional delivery",
+    "documents": [
+      "aadhaar",
+      "jsy_mcp_card",
+      "bank_account"
+    ],
+    "source_url": "https://nhm.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-fasal-bima-yojana",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "benefit": "Crop insurance against yield loss at low premium",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "farmer"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "farmers growing notified crops in notified areas, including sharecroppers and tenant farmers"
+    },
+    "why": "You are a farmer growing a notified crop wanting insurance cover",
+    "documents": [
+      "aadhaar",
+      "land_records",
+      "bank_account",
+      "sowing_certificate"
+    ],
+    "source_url": "https://pmfby.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "beti-bachao-beti-padhao",
+    "name": "Beti Bachao Beti Padhao",
+    "department": "Ministry of Women & Child Development",
+    "benefit": "Awareness and support programme to improve girl child survival and education",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "girl children and their families; mainly awareness, education and protection focused rather than direct cash"
+    },
+    "why": "You have a girl child and can benefit from survival/education support",
+    "documents": [
+      "aadhaar",
+      "birth_certificate"
+    ],
+    "source_url": "https://wcd.nic.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "national-scholarship-portal-merit",
+    "name": "National Means-cum-Merit Scholarship (via NSP)",
+    "department": "Ministry of Education (Department of School Education & Literacy)",
+    "benefit": "Scholarship of ₹12000/year for meritorious students of economically weaker families",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": 350000,
+      "categories": [
+        "all",
+        "ews",
+        "sc",
+        "st",
+        "obc"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "meritorious students from class 9–12 in government/aided schools within family income limit"
+    },
+    "why": "You are a meritorious student from a low-income family in classes 9–12",
+    "documents": [
+      "aadhaar",
+      "income_certificate",
+      "marksheet",
+      "bank_account"
+    ],
+    "source_url": "https://scholarships.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-svanidhi",
+    "name": "PM SVANidhi",
+    "department": "Ministry of Housing & Urban Affairs",
+    "benefit": "Collateral-free working-capital loans (₹10k/₹20k/₹50k) for street vendors",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupations": [
+        "street_vendor"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "urban street vendors with a certificate of vending or identified in the vendor survey"
+    },
+    "why": "You are an urban street vendor needing working capital",
+    "documents": [
+      "aadhaar",
+      "vending_certificate",
+      "bank_account"
+    ],
+    "source_url": "https://pmsvanidhi.mohua.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "e-shram",
+    "name": "e-Shram (Unorganised Workers Registration)",
+    "department": "Ministry of Labour & Employment",
+    "benefit": "Universal social-security registration with accidental insurance cover",
+    "eligibility": {
+      "min_age": 16,
+      "max_age": 59,
+      "occupations": [
+        "unorganised_worker"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "unorganised-sector workers aged 16–59 not covered by EPFO/ESIC; not income-tax payers"
+    },
+    "why": "You are an unorganised-sector worker aged 16–59",
+    "documents": [
+      "aadhaar",
+      "bank_account",
+      "mobile_number"
+    ],
+    "source_url": "https://eshram.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "ddu-gky",
+    "name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "department": "Ministry of Rural Development",
+    "benefit": "Free skill training and placement support for rural youth",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 35,
+      "occupations": [
+        "unemployed",
+        "student"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "sc",
+        "st",
+        "obc",
+        "ews"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "poor rural youth aged 15–35 (relaxed age for special groups) seeking wage employment"
+    },
+    "why": "You are a rural youth aged 15–35 seeking skill training and a job",
+    "documents": [
+      "aadhaar",
+      "bpl_card",
+      "age_proof",
+      "bank_account"
+    ],
+    "source_url": "https://ddugky.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-matru-vandana-yojana",
+    "name": "PM Matru Vandana Yojana (PMMVY)",
+    "department": "Ministry of Women & Child Development",
+    "benefit": "Maternity cash benefit (₹5000 for first child; extra for second girl child)",
+    "eligibility": {
+      "min_age": 19,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "ews",
+        "sc",
+        "st"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "pregnant and lactating mothers aged 19+ for first living child; second-child benefit if girl child"
+    },
+    "why": "You are a pregnant or lactating mother eligible for maternity support",
+    "documents": [
+      "aadhaar",
+      "mcp_card",
+      "bank_account"
+    ],
+    "source_url": "https://wcd.nic.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "ladli-behna-yojana-mp",
+    "name": "Mukhyamantri Ladli Behna Yojana",
+    "department": "Government of Madhya Pradesh (Women & Child Development)",
+    "benefit": "Monthly financial assistance to eligible women",
+    "eligibility": {
+      "min_age": 21,
+      "max_age": 60,
+      "occupations": [],
+      "max_annual_income": 250000,
+      "categories": [
+        "all",
+        "ews",
+        "sc",
+        "st",
+        "obc"
+      ],
+      "gender": "female",
+      "states": [
+        "madhya pradesh"
+      ],
+      "requires_disability": false,
+      "notes": "resident women of MP aged 21–60 from families below income limit and not income-tax payers"
+    },
+    "why": "You are a woman resident of Madhya Pradesh in the eligible income group",
+    "documents": [
+      "aadhaar",
+      "samagra_id",
+      "income_certificate",
+      "bank_account"
+    ],
+    "source_url": "https://cmladlibahna.mp.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "kanyashree-prakalpa-wb",
+    "name": "Kanyashree Prakalpa",
+    "department": "Government of West Bengal (Women & Child Development)",
+    "benefit": "Annual scholarship and one-time grant to keep girls in school and delay marriage",
+    "eligibility": {
+      "min_age": 13,
+      "max_age": 19,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": 120000,
+      "categories": [
+        "all",
+        "sc",
+        "st",
+        "obc",
+        "ews"
+      ],
+      "gender": "female",
+      "states": [
+        "west bengal"
+      ],
+      "requires_disability": false,
+      "notes": "unmarried girls aged 13–19 enrolled in education in West Bengal within family income limit"
+    },
+    "why": "You are an unmarried schoolgirl aged 13–19 in West Bengal",
+    "documents": [
+      "aadhaar",
+      "school_enrolment_proof",
+      "income_certificate",
+      "bank_account"
+    ],
+    "source_url": "https://wbkanyashree.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "rythu-bandhu-telangana",
+    "name": "Rythu Bandhu",
+    "department": "Government of Telangana (Agriculture)",
+    "benefit": "Per-acre investment support to farmers each crop season",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "farmer"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "telangana"
+      ],
+      "requires_disability": false,
+      "notes": "landowning farmers in Telangana receiving support per acre of cultivable land"
+    },
+    "why": "You are a landowning farmer in Telangana",
+    "documents": [
+      "aadhaar",
+      "land_records",
+      "bank_account",
+      "pattadar_passbook"
+    ],
+    "source_url": "https://rythubandhu.telangana.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "national-family-benefit-scheme",
+    "name": "National Family Benefit Scheme (NFBS)",
+    "department": "Ministry of Rural Development (NSAP)",
+    "benefit": "One-time lump-sum ₹20000 on death of the primary breadwinner",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "ews"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "BPL household where the primary breadwinner (aged 18–59) has died; benefit paid to surviving member"
+    },
+    "why": "Your BPL household lost its primary breadwinner",
+    "documents": [
+      "aadhaar",
+      "death_certificate",
+      "bpl_card",
+      "bank_account"
+    ],
+    "source_url": "https://nsap.nic.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "indira-gandhi-disability-pension",
+    "name": "Indira Gandhi National Disability Pension Scheme (IGNDPS)",
+    "department": "Ministry of Rural Development (NSAP)",
+    "benefit": "Monthly pension for persons with severe/multiple disability",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "ews"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": true,
+      "notes": "persons aged 18+ with 80%+ (severe/multiple) disability from a BPL household"
+    },
+    "why": "You have a severe disability and belong to a BPL household",
+    "documents": [
+      "aadhaar",
+      "disability_certificate",
+      "bpl_card",
+      "bank_account"
+    ],
+    "source_url": "https://nsap.nic.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "indira-gandhi-widow-pension",
+    "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "department": "Ministry of Rural Development (NSAP)",
+    "benefit": "Monthly pension for widows from BPL households",
+    "eligibility": {
+      "min_age": 40,
+      "max_age": 79,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all",
+        "ews"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "widows aged 40–79 belonging to a Below Poverty Line household"
+    },
+    "why": "You are a widow aged 40–79 from a BPL household",
+    "documents": [
+      "aadhaar",
+      "death_certificate_spouse",
+      "bpl_card",
+      "bank_account"
+    ],
+    "source_url": "https://nsap.nic.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "national-apprenticeship-promotion-scheme",
+    "name": "National Apprenticeship Promotion Scheme (NAPS)",
+    "department": "Ministry of Skill Development & Entrepreneurship",
+    "benefit": "Stipend support and apprenticeship training for youth",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": null,
+      "occupations": [
+        "student",
+        "unemployed",
+        "apprentice"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "youth aged 14+ (minimum 18 for hazardous trades) seeking apprenticeship training with employers"
+    },
+    "why": "You are a young person seeking apprenticeship training and a stipend",
+    "documents": [
+      "aadhaar",
+      "marksheet",
+      "bank_account"
+    ],
+    "source_url": "https://www.apprenticeshipindia.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-jan-dhan-yojana",
+    "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "department": "Ministry of Finance (Department of Financial Services)",
+    "benefit": "Zero-balance bank account with RuPay card and accident insurance cover",
+    "eligibility": {
+      "min_age": 10,
+      "max_age": null,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "any Indian resident without a bank account can open a basic savings account"
+    },
+    "why": "You are an Indian resident without a bank account",
+    "documents": [
+      "aadhaar",
+      "identity_proof"
+    ],
+    "source_url": "https://pmjdy.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-suraksha-bima-yojana",
+    "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "department": "Ministry of Finance (Department of Financial Services)",
+    "benefit": "Accidental death/disability insurance of ₹2 lakh for ₹20/year premium",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 70,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "bank account holders aged 18–70 who auto-debit the annual premium"
+    },
+    "why": "You are aged 18–70 with a bank account wanting low-cost accident cover",
+    "documents": [
+      "aadhaar",
+      "bank_account"
+    ],
+    "source_url": "https://www.jansuraksha.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "pm-jeevan-jyoti-bima-yojana",
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "department": "Ministry of Finance (Department of Financial Services)",
+    "benefit": "Life insurance cover of ₹2 lakh at low annual premium",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 50,
+      "occupations": [],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "bank account holders aged 18–50 (cover continues to 55) who enrol and pay the annual premium"
+    },
+    "why": "You are aged 18–50 with a bank account wanting affordable life cover",
+    "documents": [
+      "aadhaar",
+      "bank_account"
+    ],
+    "source_url": "https://www.jansuraksha.gov.in",
+    "disclaimer": "Approximate eligibility — verify on the official portal."
+  },
+  {
+    "id": "nmms-scholarship",
+    "name": "National Means-cum-Merit Scholarship (NMMSS)",
+    "department": "Ministry of Education",
+    "benefit": "12,000 rupees/year for classes 9-12",
+    "eligibility": {
+      "min_age": 13,
+      "max_age": 18,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": 350000,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "parental income up to 3.5 lakh; must clear state selection test in class 8"
+    },
+    "why": "You are a class 9-12 student from a low-income family",
+    "documents": [
+      "income_certificate",
+      "school_id",
+      "bank_account"
+    ],
+    "source_url": "https://scholarships.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pm-yasasvi",
+    "name": "PM-YASASVI Scholarship",
+    "department": "Ministry of Social Justice & Empowerment",
+    "benefit": "Up to 1,25,000 rupees/year for OBC/EBC/DNT students",
+    "eligibility": {
+      "min_age": 13,
+      "max_age": 20,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": 250000,
+      "categories": [
+        "obc",
+        "ews"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "for OBC, EBC and DNT students in classes 9-11"
+    },
+    "why": "You are an OBC/EBC student from a low-income family",
+    "documents": [
+      "income_certificate",
+      "caste_certificate",
+      "school_id"
+    ],
+    "source_url": "https://yet.nta.ac.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pm-poshan",
+    "name": "PM POSHAN (Mid-Day Meal)",
+    "department": "Ministry of Education",
+    "benefit": "Free hot cooked meal on school days",
+    "eligibility": {
+      "min_age": 6,
+      "max_age": 14,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "all children in government and government-aided schools, classes 1-8"
+    },
+    "why": "You have a child in a government school (classes 1-8)",
+    "documents": [
+      "school_id"
+    ],
+    "source_url": "https://pmposhan.education.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pmegp",
+    "name": "Prime Minister Employment Generation Programme (PMEGP)",
+    "department": "Ministry of MSME",
+    "benefit": "Margin-money subsidy 15-35% on projects up to 50 lakh (manufacturing)",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupations": [
+        "self-employed",
+        "unemployed"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "above 18; new micro-enterprises; class 8 pass for larger projects"
+    },
+    "why": "You want to start a new micro-enterprise",
+    "documents": [
+      "aadhaar",
+      "project_report",
+      "caste_certificate"
+    ],
+    "source_url": "https://www.kviconline.gov.in/pmegp",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "nrlm-shg",
+    "name": "DAY-NRLM Self-Help Group Support",
+    "department": "Ministry of Rural Development",
+    "benefit": "Revolving fund and bank credit at subsidised interest for women SHGs",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "homemaker",
+        "self-employed",
+        "worker"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "rural women organised into self-help groups"
+    },
+    "why": "You are a rural woman in or forming a self-help group",
+    "documents": [
+      "aadhaar",
+      "bank_account"
+    ],
+    "source_url": "https://aajeevika.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pmkvy",
+    "name": "PM Kaushal Vikas Yojana (PMKVY)",
+    "department": "Ministry of Skill Development",
+    "benefit": "Free short-term skill training and certification",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 45,
+      "occupations": [
+        "unemployed",
+        "student",
+        "worker"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "unemployed youth / school-college dropouts"
+    },
+    "why": "You are a young person seeking free skill training",
+    "documents": [
+      "aadhaar",
+      "bank_account"
+    ],
+    "source_url": "https://www.pmkvyofficial.org",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pm-internship",
+    "name": "PM Internship Scheme",
+    "department": "Ministry of Corporate Affairs",
+    "benefit": "5,000 rupees/month stipend plus 6,000 one-time grant, 12-month internship",
+    "eligibility": {
+      "min_age": 21,
+      "max_age": 24,
+      "occupations": [
+        "unemployed",
+        "student"
+      ],
+      "max_annual_income": 800000,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "age 21-24, not in full-time job/education, family income up to 8 lakh"
+    },
+    "why": "You are a 21-24 year old seeking a first industry internship",
+    "documents": [
+      "aadhaar",
+      "education_certificate",
+      "bank_account"
+    ],
+    "source_url": "https://pminternship.mca.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pm-vidyalaxmi",
+    "name": "PM Vidyalaxmi Education Loan",
+    "department": "Ministry of Education",
+    "benefit": "Collateral-free education loan with interest subvention",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": 800000,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "admission to quality higher-ed institutions; 3% interest subvention if family income up to 8 lakh"
+    },
+    "why": "You gained admission to a higher-education institution and need a loan",
+    "documents": [
+      "admission_letter",
+      "income_certificate",
+      "aadhaar"
+    ],
+    "source_url": "https://www.pmvidyalaxmi.co.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "nps-vatsalya",
+    "name": "NPS Vatsalya",
+    "department": "Ministry of Finance (PFRDA)",
+    "benefit": "Pension savings account for minors, minimum 1,000 rupees/year",
+    "eligibility": {
+      "min_age": null,
+      "max_age": 17,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "pension account opened by parents/guardians for a minor child"
+    },
+    "why": "You want to start long-term pension savings for your child",
+    "documents": [
+      "child_aadhaar",
+      "guardian_aadhaar",
+      "bank_account"
+    ],
+    "source_url": "https://enps.nsdl.com",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pm-surya-ghar",
+    "name": "PM Surya Ghar Muft Bijli Yojana",
+    "department": "Ministry of New & Renewable Energy",
+    "benefit": "Subsidy up to 78,000 rupees for rooftop solar plus free electricity up to 300 units",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "households with own roof and a valid electricity connection"
+    },
+    "why": "You own a home with a rooftop and an electricity connection",
+    "documents": [
+      "electricity_bill",
+      "aadhaar",
+      "property_proof"
+    ],
+    "source_url": "https://pmsuryaghar.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pmjay-vay-vandana",
+    "name": "Ayushman Vay Vandana (70+)",
+    "department": "Ministry of Health & Family Welfare",
+    "benefit": "5 lakh rupees/year free health cover for all citizens aged 70+",
+    "eligibility": {
+      "min_age": 70,
+      "max_age": null,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "all citizens aged 70 and above, irrespective of income"
+    },
+    "why": "You are 70 or older, eligible regardless of income",
+    "documents": [
+      "aadhaar"
+    ],
+    "source_url": "https://pmjay.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "cm-ladli-laxmi",
+    "name": "Ladli Laxmi Yojana",
+    "department": "State Women & Child Development",
+    "benefit": "Savings bond maturing to over 1,00,000 rupees for the girl child",
+    "eligibility": {
+      "min_age": null,
+      "max_age": 5,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "girl child of resident families; enrol before age 5; conditions vary by state"
+    },
+    "why": "You have registered a girl child under the state Ladli scheme",
+    "documents": [
+      "birth_certificate",
+      "domicile_certificate",
+      "bank_account"
+    ],
+    "source_url": "https://ladlilaxmi.mp.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pmvishwakarma-toolkit",
+    "name": "PM Vishwakarma Toolkit & Credit",
+    "department": "Ministry of MSME",
+    "benefit": "15,000 rupees toolkit grant plus collateral-free loan up to 3 lakh at 5%",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "occupations": [
+        "self-employed",
+        "worker"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "18 traditional artisan/craft trades (carpenter, tailor, potter, etc.)"
+    },
+    "why": "You are a traditional artisan in a recognised craft trade",
+    "documents": [
+      "aadhaar",
+      "bank_account"
+    ],
+    "source_url": "https://pmvishwakarma.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pmmsy-fishermen",
+    "name": "PM Matsya Sampada Yojana",
+    "department": "Ministry of Fisheries",
+    "benefit": "Subsidy on boats, nets, ponds; support during fishing ban period",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "worker",
+        "self-employed"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "registered fishers and fish farmers"
+    },
+    "why": "You are a fisher or fish farmer",
+    "documents": [
+      "aadhaar",
+      "fisher_id",
+      "bank_account"
+    ],
+    "source_url": "https://pmmsy.dof.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "soil-health-card",
+    "name": "Soil Health Card Scheme",
+    "department": "Ministry of Agriculture",
+    "benefit": "Free soil testing and crop-wise nutrient recommendations",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "farmer"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "all farmers with cultivable land"
+    },
+    "why": "You are a farmer who wants free soil analysis",
+    "documents": [
+      "land_records"
+    ],
+    "source_url": "https://soilhealth.dac.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "kcc",
+    "name": "Kisan Credit Card (KCC)",
+    "department": "Ministry of Agriculture",
+    "benefit": "Crop loan up to 3 lakh at 4% effective interest with timely repayment",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "farmer"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "farmers, tenant farmers, sharecroppers, and allied activities"
+    },
+    "why": "You are a farmer needing low-interest crop credit",
+    "documents": [
+      "land_records",
+      "aadhaar",
+      "bank_account"
+    ],
+    "source_url": "https://www.myscheme.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "one-nation-one-ration",
+    "name": "One Nation One Ration Card",
+    "department": "Ministry of Consumer Affairs",
+    "benefit": "Portable ration card - draw subsidised foodgrain anywhere in India",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "any NFSA ration card holder; enables inter-state portability"
+    },
+    "why": "You hold an NFSA ration card and move between states",
+    "documents": [
+      "ration_card",
+      "aadhaar"
+    ],
+    "source_url": "https://nfsa.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "free-foodgrain-pmgkay",
+    "name": "Pradhan Mantri Garib Kalyan Anna Yojana",
+    "department": "Ministry of Consumer Affairs",
+    "benefit": "Free foodgrain (5 kg/person/month) to NFSA beneficiaries",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "Antyodaya and Priority Household ration card holders under NFSA"
+    },
+    "why": "You are an NFSA (AAY/PHH) ration card holder",
+    "documents": [
+      "ration_card"
+    ],
+    "source_url": "https://dfpd.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "adip-disability-aids",
+    "name": "ADIP Scheme (Assistive Aids for Disabled)",
+    "department": "Ministry of Social Justice & Empowerment",
+    "benefit": "Free/subsidised assistive devices (wheelchairs, hearing aids, prostheses)",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": 300000,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": true,
+      "notes": "persons with 40%+ disability; monthly income conditions apply"
+    },
+    "why": "You are a person with disability needing assistive aids",
+    "documents": [
+      "disability_certificate",
+      "income_certificate",
+      "aadhaar"
+    ],
+    "source_url": "https://adip.dept-disability.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "nsap-disability-central",
+    "name": "Indira Gandhi National Disability Pension (Central)",
+    "department": "Ministry of Rural Development",
+    "benefit": "300-500 rupees/month pension for severely disabled BPL persons",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 79,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": true,
+      "notes": "BPL persons aged 18-79 with 80%+ disability"
+    },
+    "why": "You are a BPL person with severe disability aged 18-79",
+    "documents": [
+      "disability_certificate",
+      "bpl_card",
+      "bank_account"
+    ],
+    "source_url": "https://nsap.nic.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "cgtmse-credit",
+    "name": "CGTMSE Collateral-Free Credit",
+    "department": "Ministry of MSME",
+    "benefit": "Collateral-free bank credit up to 5 crore for micro/small enterprises",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "self-employed"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "new and existing micro & small enterprises"
+    },
+    "why": "You run a micro/small enterprise and need collateral-free credit",
+    "documents": [
+      "udyam_registration",
+      "project_report",
+      "bank_account"
+    ],
+    "source_url": "https://www.cgtmse.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "startup-india-seed",
+    "name": "Startup India Seed Fund",
+    "department": "DPIIT, Ministry of Commerce",
+    "benefit": "Seed funding up to 50 lakh for early-stage startups",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "self-employed"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "DPIIT-recognised startups incorporated within 2 years"
+    },
+    "why": "You have a DPIIT-recognised early-stage startup",
+    "documents": [
+      "dpiit_certificate",
+      "pitch_deck",
+      "bank_account"
+    ],
+    "source_url": "https://seedfund.startupindia.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pmjdy-overdraft",
+    "name": "PMJDY Overdraft Facility",
+    "department": "Ministry of Finance",
+    "benefit": "Overdraft up to 10,000 rupees and 2 lakh accident cover on Jan Dhan accounts",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 65,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "active Jan Dhan account holders in good standing"
+    },
+    "why": "You hold an active Jan Dhan bank account",
+    "documents": [
+      "jan_dhan_account",
+      "aadhaar"
+    ],
+    "source_url": "https://pmjdy.gov.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "widow-pension-central",
+    "name": "Indira Gandhi National Widow Pension (Central)",
+    "department": "Ministry of Rural Development",
+    "benefit": "300-500 rupees/month pension for BPL widows aged 40-79",
+    "eligibility": {
+      "min_age": 40,
+      "max_age": 79,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "female",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "BPL widows aged 40-79"
+    },
+    "why": "You are a BPL widow aged 40-79",
+    "documents": [
+      "death_certificate_spouse",
+      "bpl_card",
+      "bank_account"
+    ],
+    "source_url": "https://nsap.nic.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  },
+  {
+    "id": "pm-awas-gramin",
+    "name": "PM Awas Yojana - Gramin",
+    "department": "Ministry of Rural Development",
+    "benefit": "1.2-1.3 lakh rupees assistance to build a pucca house in rural areas",
+    "eligibility": {
+      "min_age": null,
+      "max_age": null,
+      "occupations": [
+        "any"
+      ],
+      "max_annual_income": null,
+      "categories": [
+        "all"
+      ],
+      "gender": "any",
+      "states": [
+        "all"
+      ],
+      "requires_disability": false,
+      "notes": "rural houseless / kutcha-house families per SECC and Awas+ data"
+    },
+    "why": "You are a rural family without a pucca house",
+    "documents": [
+      "aadhaar",
+      "job_card",
+      "bank_account"
+    ],
+    "source_url": "https://pmayg.nic.in",
+    "disclaimer": "Approximate eligibility - verify on the official portal."
+  }
+]

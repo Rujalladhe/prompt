@@ -1,0 +1,13 @@
+{
+  "service_id": "driving_licence",
+  "aliases": ["driving licence", "driving license", "learner licence", "dl apply", "driving licence banwana hai", "learner license apply", "sarathi"],
+  "portal_url": "https://sarathi.parivahan.gov.in",
+  "required_docs": ["aadhaar", "address_proof", "date_of_birth_proof", "photo"],
+  "steps": [
+    { "type": "navigate", "target": "portal_url", "instruction": "Opening the Parivahan Sarathi driving licence portal" },
+    { "type": "human_required", "reason": "select_state_login", "instruction": "Select your state / RTO and log in or verify with the OTP sent to your mobile. Enter it yourself." },
+    { "type": "ai_fill", "field_map": { "name": "profile.name", "address": "profile.address", "state": "profile.state" }, "instruction": "Filling your name, address and state into the learner/driving licence application" },
+    { "type": "human_required", "reason": "pay_and_slot", "instruction": "Pay the fee and book your slot for the learner test or driving test yourself." },
+    { "type": "human_required", "reason": "final_submit", "instruction": "Review the application and submit it yourself. Save the application number." }
+  ]
+}

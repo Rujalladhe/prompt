@@ -1,0 +1,13 @@
+{
+  "service_id": "pan_card",
+  "aliases": ["pan card", "new pan card", "apply pan", "pan card banwana hai", "pan card ke liye apply", "pan apply online"],
+  "portal_url": "https://www.protean-tinpan.com",
+  "required_docs": ["aadhaar", "date_of_birth_proof", "address_proof", "photo"],
+  "steps": [
+    { "type": "navigate", "target": "portal_url", "instruction": "Opening the Protean (NSDL) PAN application portal" },
+    { "type": "ai_fill", "field_map": { "name": "profile.name", "address": "profile.address" }, "instruction": "Pre-filling your name and address from your saved profile (Form 49A)" },
+    { "type": "human_required", "reason": "aadhaar_ekyc", "instruction": "Complete Aadhaar e-KYC by entering the OTP sent to your Aadhaar-registered mobile. I will never see or store this OTP." },
+    { "type": "human_required", "reason": "pay_fee", "instruction": "Pay the PAN processing fee (around 107 rupees for an Indian address) using your own payment method." },
+    { "type": "human_required", "reason": "final_submit", "instruction": "Review all details in Form 49A and submit the application yourself. Note the acknowledgement number." }
+  ]
+}

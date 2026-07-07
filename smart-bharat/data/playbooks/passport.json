@@ -1,0 +1,13 @@
+{
+  "service_id": "passport",
+  "aliases": ["passport", "new passport", "passport apply", "passport banwana hai", "passport ke liye apply", "passport seva"],
+  "portal_url": "https://www.passportindia.gov.in",
+  "required_docs": ["aadhaar", "address_proof", "date_of_birth_proof", "photo"],
+  "steps": [
+    { "type": "navigate", "target": "portal_url", "instruction": "Opening the Passport Seva online portal" },
+    { "type": "human_required", "reason": "login", "instruction": "Log in with your Passport Seva account, or register first with your email. Enter the password yourself." },
+    { "type": "ai_fill", "field_map": { "name": "profile.name", "address": "profile.address", "state": "profile.state" }, "instruction": "Filling your name, present address and state into the fresh passport application form" },
+    { "type": "human_required", "reason": "pay_and_schedule", "instruction": "Pay the passport fee and book your Passport Seva Kendra appointment slot yourself." },
+    { "type": "human_required", "reason": "final_submit", "instruction": "Review the application, submit it, and carry your original documents to the appointment." }
+  ]
+}

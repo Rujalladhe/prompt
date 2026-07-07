@@ -1,0 +1,13 @@
+{
+  "service_id": "voter_id",
+  "aliases": ["voter id", "voter card", "epic card", "voter id banwana hai", "new voter registration", "voter id apply", "form 6"],
+  "portal_url": "https://voters.eci.gov.in",
+  "required_docs": ["aadhaar", "address_proof", "date_of_birth_proof", "photo"],
+  "steps": [
+    { "type": "navigate", "target": "portal_url", "instruction": "Opening the Voters' Service Portal (ECI)" },
+    { "type": "human_required", "reason": "login", "instruction": "Log in or sign up with your mobile number and the OTP sent to it. Enter the OTP yourself." },
+    { "type": "ai_fill", "field_map": { "name": "profile.name", "address": "profile.address", "state": "profile.state" }, "instruction": "Pre-filling Form 6 (new elector registration) with your name, address and state" },
+    { "type": "human_required", "reason": "upload_docs", "instruction": "Upload your photo, age proof and address proof, then confirm they are correct." },
+    { "type": "human_required", "reason": "final_submit", "instruction": "Review Form 6 and submit it yourself. Note the reference ID to track your application." }
+  ]
+}

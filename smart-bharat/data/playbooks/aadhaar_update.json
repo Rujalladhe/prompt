@@ -1,0 +1,13 @@
+{
+  "service_id": "aadhaar_update",
+  "aliases": ["aadhar card", "aadhaar banwana hai", "update aadhaar address", "aadhaar address change", "aadhar update karna hai"],
+  "portal_url": "https://ssup.uidai.gov.in",
+  "required_docs": ["aadhaar", "address_proof", "photo"],
+  "steps": [
+    { "type": "navigate", "target": "portal_url", "instruction": "Opening the UIDAI Self Service Update Portal" },
+    { "type": "human_required", "reason": "login", "instruction": "Enter your Aadhaar number and the login OTP sent to your registered mobile. I will never see or store these." },
+    { "type": "ai_fill", "field_map": { "name": "profile.name", "address": "profile.address" }, "instruction": "Filling your name and new address from your saved profile" },
+    { "type": "human_required", "reason": "otp_verify", "instruction": "Enter the OTP sent to authorise this address update." },
+    { "type": "human_required", "reason": "final_submit", "instruction": "Review the pre-filled form and click Submit yourself." }
+  ]
+}
