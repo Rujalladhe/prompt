@@ -111,10 +111,16 @@ function ChatPanel({ onChanged, serverStt }: { onChanged: () => void; serverStt:
   const recStopRef = useRef<null | (() => Promise<Blob>)>(null); // Scribe recorder stop
   const useScribe = serverStt && recorderSupported();
   const endRef = useRef<HTMLDivElement>(null);
-  useEffect(() => endRef.current?.scrollIntoView({
-    behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
-  }), [msgs]);
-  useEffect(() => () => stopSpeaking(), []); // stop audio on unmount
+  useEffect(() => {
+    endRef.current?.scrollIntoView({
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+    });
+  }, [msgs]);
+  useEffect(() => {
+    return () => {
+      stopSpeaking();
+    };
+  }, []);
 
   const send = async (preset?: string, spoken = false) => {
     const message = (preset ?? input).trim();

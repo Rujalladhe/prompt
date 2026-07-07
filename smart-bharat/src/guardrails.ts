@@ -10,10 +10,10 @@
  */
 
 const INJECTION_PATTERNS = [
-  /ignore (all |your |previous )?(instructions|prompt|rules)/i,
-  /disregard (the )?(above|previous|system)/i,
+  /ignore (all\s+|your\s+|previous\s+)*(instructions|prompt|rules)/i,
+  /disregard (the\s+|above\s+|previous\s+|system\s+)*(above|previous|system|prompt|instructions)/i,
   /system prompt/i,
-  /reveal (your )?(prompt|instructions|system)/i,
+  /reveal (your\s+|system\s+|original\s+)*(prompt|instructions|system|rules)/i,
   /you are now/i,
   /developer mode/i,
   /pretend to be/i,
@@ -60,20 +60,21 @@ export function inputGuard(text: string): InputVerdict {
 }
 
 const AADHAAR = /\b(\d[ -]?){11}\d\b/g; // 12 digits, optional spaces/hyphens
-const PHONE = /\b(?:\+?91[- ]?)?[6-9]\d{9}\b/g;
+const PHONE = /(?:\+?91[- ]?)?[6-9]\d{9}\b/g;
 
 /** Redact PII in outgoing text: show only last 4 of long ID-like numbers. */
 export function outputGuard(text: string): { text: string; redacted: boolean } {
   let redacted = false;
-  let out = text.replace(AADHAAR, (m) => {
+  // Replace PHONE first to avoid country code (+91) colliding with 12-digit AADHAAR matching
+  let out = text.replace(PHONE, (m) => {
+    redacted = true;
+    return "XXXXXX" + m.replace(/\D/g, "").slice(-4);
+  });
+  out = out.replace(AADHAAR, (m) => {
     const digits = m.replace(/\D/g, "");
     if (digits.length !== 12) return m;
     redacted = true;
     return "XXXX XXXX " + digits.slice(-4);
-  });
-  out = out.replace(PHONE, (m) => {
-    redacted = true;
-    return "XXXXXX" + m.replace(/\D/g, "").slice(-4);
   });
   return { text: out, redacted };
 }

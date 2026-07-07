@@ -8,6 +8,7 @@
     "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
     "eval": "tsx eval/run.ts",
+    "test": "tsx eval/test-runner.ts",
     "ingest": "tsx -e \"import('./src/rag/ingest.js').then(m=>m.ingestCorpus())\"",
     "typecheck": "tsc --noEmit"
   },
